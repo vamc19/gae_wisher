@@ -8,8 +8,8 @@ To wish Linus Torvalds, try http://gaewisher.appspot.com/theme-themeNumber/Linus
 
 TODO:
 =====
-** Add themes
-** Pastebin support to enable custom messages
+1. Add themes
+2. Pastebin support to enable custom messages
 
 
 This application is under GNU/GPL v3.0. Please see the LICENSE document or http://www.gnu.org/copyleft/gpl.html for more details.
