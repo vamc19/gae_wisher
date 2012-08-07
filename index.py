@@ -8,7 +8,7 @@ from google.appengine.ext.webapp import template
 class MainHandler(webapp.RequestHandler):
 
     def get(self):
-        self.response.out.write("<b>welcome</b>")
+        self.response.out.write(template.render("index.html", {}))
         
 application = webapp.WSGIApplication([('/', MainHandler)], debug=True)
 
