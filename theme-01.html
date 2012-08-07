@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Happy Birthday {% if name %}
+			    {{name}}
+			  {% endif %}
+    </title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <link type="text/css" rel="stylesheet" href="/themes/02/css/style.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Ruda:400,900' rel='stylesheet' type='text/css'/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/themes/02/js/script.js"></script>
+  </head>
+  <body>
+    <div id='container'>
+      <div id='switch'></div>
+      <div id='bulb' class='off'></div>
+      <div id='content'>
+	<p> <font color=#191919>Happy Birthday</font></br> {% if name %}
+				  {{name}}
+				{% endif %}
+	</p>
+      </div>
+    </div>
+  </body>
+</html>

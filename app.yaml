@@ -1,0 +1,18 @@
+application: gaewisher
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /themes
+  static_dir: themes
+
+- url: /index.html
+  script: index.py
+
+- url: /
+  script: index.py  
+  
+- url: /.*
+  script: main.py
+  
